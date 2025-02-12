@@ -19,12 +19,13 @@ venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+<p>=======================</p>
 
 查看CUDA版本
 ```bash
 nvidia-smi
 ```
-根據你的 CUDA 版本選擇適合的 cuXXX，如 cu118、cu121<\br>
+根據你的 CUDA 版本選擇適合的 cuXXX，如 cu118、cu121
 ```bash
 pip install torch --index-url https://download.pytorch.org/whl/cu121
 ```
