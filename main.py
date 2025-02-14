@@ -71,3 +71,5 @@ def main():
     # 7) 評估
     print("評估模型...")
     evaluate_model(model, test_loader, device)
+if __name__ == "__main__":
+    main()
